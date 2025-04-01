@@ -1,0 +1,84 @@
+
+
+html, body {
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+    width: 100%; /* Ensures no extra width */
+}
+
+/* .container-fluid, .row, .col { */
+    /* max-width: 100%; /* Ensures elements don't overflow */ */
+	 /* overflow-x: hidden; */
+/* } */
+
+.flex-nowrap {
+    flex-wrap: wrap !important; /* Prevents forcing all items into one row */
+}
+
+.navbar{
+	height:60px;
+	width:100%;
+	
+	
+}
+
+.offcanvas {
+    max-width: 50vw; /* Prevents offcanvas from taking full width */
+    overflow-x: hidden;
+}
+
+
+ 
+.custom-color{
+	color:white !important;
+}
+
+
+
+
+  
+
+
+
+
+
+/* .custom-button{ */
+	  /* height: 30px;  /* Adjust as needed */ */
+      
+        /* font-size: 14px; */
+	
+	
+/* } */
+
+
+.
+.custom-color {
+    display: block;
+    width: 100%;  /* Ensures full width */
+
+}
+
+.carousel-control-prev,.carousel-control-next{
+	filter:invert(100%);
+}
+
+
+
+.card{
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+.col-sm-2 img, .col-sm-3 img{
+	
+	width:150px;
+	
+}
+
